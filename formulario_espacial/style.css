@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0, 0, 0, 0.884);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.formulario {
+    background-color: rgb(16, 20, 37);
+    margin-block: 1.5rem;
+    margin-inline: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: .6rem;
+    max-width: 90%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: start;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    margin-inline: .5rem;
+}
+
+h2.title {
+    text-align: center;
+    color: aqua;
+    margin: 0;
+    margin: 1rem 0;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: start;
+    color: whitesmoke;
+    margin-bottom: .5rem;
+}
+
+label.topic{
+  margin-block: .7rem;
+}
+
+input#name, #email, #date {
+    padding: .5rem;
+    border-radius: .4rem;
+    
+}
+
+input:focus{
+    color: aqua;
+    
+}
+
+input#name, #email, #date :hover{
+    border-color: aqua ;
+}
+
+select#fly, #exp{
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: .4rem;
+    
+}
+
+textarea#message{
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: .4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea#message:hover{
+    border-color: aqua;
+}
+
+textarea#message:focus{
+    color: aqua;
+}
+
+button{
+    padding: .5rem;
+    width: 100%;
+    border-radius: .4rem;
+    background-color: aqua;
+    color: rgb(16, 20, 37);
+    font-weight: 600;
+    
+}
+

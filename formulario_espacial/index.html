@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Espacial</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <h2 class="title">☄️Registro de Viaje Espacial🚀</h2>
+        <form action="#" method="post">
+            <label for="name" class="topic">👩🏾‍🚀Nombre Completo:</label> 
+            <input type="text" id="name" name="name" required minlength="9" placeholder="Escribe tu nombre"> 
+            <label for="email" class="topic">📧Correo Electrónico:</label> 
+            <input type="email" id="email" name="email" required placeholder="Ejemplo: viaje@dominio"> 
+            <label for="fly" class="topic">🚀Destino Espacial:</label> 
+            <select id="fly" name="fly"> 
+                <option value="vacio">Seleccione un destino</option> 
+                <option value="luna">Luna</option> 
+                <option value="marte">Marte</option> 
+                <option value="andromeda">Andrómeda</option> 
+                <option value="jupiter">Júpiter</option> 
+            </select> 
+            <label for="date" class="topic">📅Fecha de Partida</label> 
+            <input type="date" id="date" name="date" min="2025-08-01" required> 
+
+            <label for="type" class="topic">👤¿Qué tipo de viajero eres?</label> 
+            <label for="type"><input type="radio" id="type" name="type">Turista Espacial</label> 
+            <label for="type"><input type="radio" id="type" name="type">Explorador Galáctico</label> 
+            <label for="type"><input type="radio" id="type" name="type">Científico Interplanetario</label> 
+
+
+
+            <label for="type" class="topic">🌚¿Qué deseas llevar en la nave?</label> 
+            <label for="type"><input type="checkbox" id="type" name="type">Comida Espacial</label> 
+            <label for="type"><input type="checkbox" id="type" name="type">Mascota Alienígena</label> 
+            <label for="type"><input type="checkbox" id="type" name="type">Robot Asistente</label> 
+            <label for="type"><input type="checkbox" id="type" name="type">Playlist
+                Intergaláctico</label> 
+            <label for="exp" class="topic">🫣Nivel de Experiencia:</label> 
+            <select id="exp" name="exp">
+                <option value="vacio">Selecciona tu nivel</option> 
+                <option value="novato">Novato</option> 
+                <option value="intermedio">Intermedio</option> 
+                <option value="experto">Experto</option> 
+            </select>
+            <label for="message" class="topic">📝Mensaje para la tripulación:</label> 
+            <textarea type="text" id="message" name="message" rows="4" cols="20"
+                placeholder="Deja un mensaje para la misión"></textarea> 
+            <button type="submit">🚀Listo para despegar</button> 
+        </form>
+    </div>
+</body>
+
+</html>
